@@ -110,9 +110,9 @@ service:
     #   image: "images/icons/graphic-design.png"
 
     # service item loop
-    - name: "Database Management"
+    - name: "Backend Services"
       image: "images/icons/dbms.png"
-      text: "I offer cross-plattform app development as well as native development in Android and iOS"
+      text: "I'm very well versed with Firbase as a backend but also dedicated backend services can be done"
 
     # service item loop
     - name: "Software Development"
@@ -120,9 +120,9 @@ service:
       text: "I offer cross-plattform app development as well as native development in Android and iOS"
 
     # service item loop
-    - name: "Digital Marketing"
+    - name: "App Store Optimization"
       image: "images/icons/marketing.png"
-      text: "I offer cross-plattform app development as well as native development in Android and iOS"
+      text: "Work is not done when the app is in the App Stores. I can help you with increasing your download numbers"
 
 
 
@@ -142,98 +142,43 @@ portfolio:
   title: "PORTFOLIO"
   portfolio_list:
     # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item1.jpg"
-      date: "Feb 2018"
-      category: "Web Development"
+    - name: "Tag Me - Hashtag Finder"
+      image: "images/portfolio/tagme.png"
+      category: "Flutter"
 
     # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item2.jpg"
-      date: "Feb 2018"
-      category: "Web Development"
+    - name: "Bouwbit"
+      image: "images/portfolio/bouwbit.png"
+      category: "Flutter"
 
     # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item3.jpg"
-      date: "Feb 2018"
-      category: "Web Development"
+    - name: "Flip - Image Recognition"
+      image: "images/portfolio/flip.png"
+      category: "Flutter"
 
     # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item4.jpg"
-      date: "Feb 2018"
-      category: "Web Development"
+    - name: "Lyconet"
+      image: "images/portfolio/lyconet.png"
+      category: "Android"
 
     # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item5.jpg"
-      date: "Feb 2018"
-      category: "Web Development"
+    - name: "Bike Citizens"
+      image: "images/portfolio/bikecitizens.png"
+      category: "Android"
 
     # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item6.jpg"
-      date: "Feb 2018"
-      category: "Web Development"
+    - name: "Blum Live Support"
+      image: "images/portfolio/blum.png"
+      category: "Android"
 
     # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item7.jpg"
-      date: "Feb 2018"
-      category: "Graphics"
-
-    # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item8.jpg"
-      date: "Feb 2018"
-      category: "Graphics"
-
-    # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item9.jpg"
-      date: "Feb 2018"
-      category: "Database"
-
-    # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item10.jpg"
-      date: "Feb 2018"
-      category: "Database"
-
-    # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item11.jpg"
-      date: "Feb 2018"
-      category: "Database"
-
-    # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item12.jpg"
-      date: "Feb 2018"
-      category: "Graphics"
-
-    # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item13.jpg"
-      date: "Feb 2018"
-      category: "Graphics"
-
-    # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item14.jpg"
-      date: "Feb 2018"
-      category: "Graphics"
-
-    # portfolio item loop
-    - name: "Project <br> Title"
-      image: "images/portfolio/item15.jpg"
-      date: "Feb 2018"
-      category: "Graphics"
-
+    - name: "Cashback"
+      image: "images/portfolio/cashback.png"
+      category: "iOS"
+    
 ################################# Testimonial #########################33
 testimonial:
-  enable: true
+  enable: false
   title: "TESTIMONIALS"
   testimonial_slider:
     # slider item loop
@@ -262,7 +207,7 @@ testimonial:
 
 ######################### funfacts #############################3
 funfacts:
-  enable: true
+  enable: false
   funfacts_list:
     # funfacts item loop
     - name: "HANDS TO WORK"
