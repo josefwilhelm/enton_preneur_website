@@ -9,9 +9,9 @@ hero:
 
   # slider background image loop
   slider_image:
-    - "images/slider/slider-1.jpg"
-    - "images/slider/slider-2.jpg"
-    - "images/slider/slider-3.jpg"
+    - "images/slider/slider1.jpeg"
+    - "images/slider/slider2.jpeg"
+    - "images/slider/slider3.jpeg"
 
   # button
   button:
@@ -22,21 +22,24 @@ hero:
 ####################### Full screen navigation #####################
 fullscreen_nav:
   enable: true
-  bg_image: "images/backgrounds/full-nav-bg.jpg"
-  first_name: "MacGyver"
-  last_name: "SOMRAT"
+  bg_image: "images/backgrounds/full.jpeg"
+  first_name: "Josef"
+  last_name: "WILHELM"
 
 ########################### About ##################################
 about:
   enable: true
-  image: "images/backgrounds/portrait.jpg"
+  image: "images/backgrounds/portrait.jpeg"
   title: "KNOW MORE <br> ABOUT ME"
-  content: "It's Somrat, Professional Web Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me............😊"
+  content: "Hey ✌️\n\nMy name is Joe. My passion are beautiful mobile apps written in Flutter. I will help your idea become reality.
+  \n\nI am from Graz, Austria, but live currently in Taipei, Taiwan\n\n
+  
+  Wine is another passion of mine. Before my carreer as software engineer I was winemaker on our family estate"
   # button
   button:
     enable: true
     label: "DOWNLOAD MY CV"
-    link: "#" # you can put your cv in static folder and give the path here.
+    link: "CV_Josef_Wilhelm.pdf" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################
 experience:
@@ -44,42 +47,48 @@ experience:
   title: "EXPERIENCE"
   experience_list:
     # experience item loop
-    - name: "Web Developer"
-      company: "Fiverr.com"
-      duration: "2016-2018"
-      content: "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
+    - name: "Flutter Developer"
+      company: "Enton Preneur, Remote"
+      duration: "Oct 2019 - now"
+      content: "Freelance Flutter developer. Development of various apps from scratch to release"
 
     # experience item loop
-    - name: "Graphic Designer"
-      company: "Fiverr.com"
-      duration: "2015-2018"
-      content: "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
+    - name: "Anroid Developer"
+      company: "TomTom, Taipei"
+      duration: "Apr 2019 - Oct 2019"
+      content: "Worked on TomTom's Connected Navigation System"
 
     # experience item loop
-    - name: "Database Manager"
-      company: "Polytechnic"
-      duration: "2014-2018"
-      content: "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name: "Lead Android Developer"
+      company: "Bike Citizens, Graz"
+      duration: "Aug 2018 - March 2019"
+      content: "Technical lead of the Android app, owning and advancing software architecture, improving of code quality and development new features"
+
+    # experience item loop
+    - name: "Mobile Developer"
+      company: "BytePoets, Graz"
+      duration: "Feb 2017 - Aug 2018"
+      content: "Agile development of Android and iOS Apps"
 
 ############################### Skill #################################
 skill:
   enable: true
-  title: "SKILL"
+  title: "SKILLS"
   skill_list:
     # skill item loop
-    - name: "Web Development"
-      parcentage: "98%"
-
-    # skill item loop
-    - name: "Graphic Design"
-      parcentage: "85%"
-
-    # skill item loop
-    - name: "Database Management"
+    - name: "Flutter Development"
       parcentage: "90%"
 
     # skill item loop
-    - name: "Wordpress"
+    - name: "Firebase Backend"
+      parcentage: "82%"
+
+    # skill item loop
+    - name: "Android Development"
+      parcentage: "80%"
+
+    # skill item loop
+    - name: "iOS Development"
       parcentage: "70%"
 
 ################################### Service ##############################3
@@ -88,32 +97,38 @@ service:
   title: "SERVICES"
   service_list:
     # service item loop
-    - name: "Web Development"
-      image: "images/icons/web-development.png"
+    - name: "Mobile App Development"
+      image: "images/icons/mobile-app.png"
+      text: "I offer cross-plattform app development as well as native development in Android and iOS"
+    
+    # # service item loop
+    # - name: "Web Development"
+    #   image: "images/icons/web-development.png"
 
-    # service item loop
-    - name: "Graphic Design"
-      image: "images/icons/graphic-design.png"
+    # # service item loop
+    # - name: "Graphic Design"
+    #   image: "images/icons/graphic-design.png"
 
     # service item loop
     - name: "Database Management"
       image: "images/icons/dbms.png"
+      text: "I offer cross-plattform app development as well as native development in Android and iOS"
 
     # service item loop
     - name: "Software Development"
       image: "images/icons/software-development.png"
+      text: "I offer cross-plattform app development as well as native development in Android and iOS"
 
     # service item loop
     - name: "Digital Marketing"
       image: "images/icons/marketing.png"
+      text: "I offer cross-plattform app development as well as native development in Android and iOS"
 
-    # service item loop
-    - name: "Mobile App Development"
-      image: "images/icons/mobile-app.png"
+
 
 ############################## call to action #########################
 call_to_action:
-  enable: true
+  enable: false
   bg_image: "images/backgrounds/need-service.jpg"
   title: "NEED A SERVICE?"
   button:

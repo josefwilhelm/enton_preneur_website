@@ -852,13 +852,13 @@ input:checked + label span:last-child {
 ----------------------------------*/
 
 .about-me {
-  background: #fff;
+  background: #181818;
   padding: 125px 0px 70px 0px;
 }
 
 .about-me-text h1 {
   position: relative;
-  color: #6f6f6f;
+  color: #fff;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -870,21 +870,21 @@ input:checked + label span:last-child {
   top: -8px;
   width: 47px;
   height: 5px;
-  background: #6f6f6f;
+  background: #fff;
 }
 
 .about-me-text p {
-  color: #6f6f6f;
-  font-size: 16px;
+  color: #fff;
+  font-size: 20px;
 }
 
 .download-cv {
   text-decoration: none;
-  color: #4d4d4d;
+  color: #fff;
   font-weight: 700;
   margin-top: 15px;
   display: inline-block;
-  border: 2px solid #4d4d4d;
+  border: 2px solid #fff;
   padding: 7px 10px;
 }
 
@@ -933,7 +933,7 @@ input:checked + label span:last-child {
 
 .experience h3,
 .skill h3 {
-  color: #6f6f6f;
+  color: #fff;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -946,7 +946,7 @@ input:checked + label span:last-child {
 
 ul.experience-chart li {
   padding-left: 30px;
-  border-left: 2px solid #6f6f6f;
+  border-left: 2px solid #fff;
   padding-bottom: 10px;
   position: relative;
 }
@@ -963,15 +963,15 @@ ul.experience-chart li:after {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 2px solid #4d4d4d;
-  background: #fff;
+  border: 2px solid #fff;
+  background: #181818;
   content: '';
   -webkit-transition: all 0.3s;
   transition: all 0.7s;
 }
 
 ul.experience-chart li:hover:after {
-  background: #4d4d4d;
+  background: #fff;
 }
 
 ul.experience-chart h4 {
@@ -979,16 +979,16 @@ ul.experience-chart h4 {
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: 700;
-  color: #4d4d4d;
+  color: #fffd;
 }
 
 .experience-chart li span {
   font-weight: 700;
-  color: #6f6f6f;
+  color: rgb(255, 83, 123);
 }
 
 .experience-chart li p {
-  color: #6f6f6f;
+  color: #fff;
 }
 
 .single-experience {
@@ -1012,8 +1012,8 @@ ul.experience-chart h4 {
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
-  background: #fff;
-  border: 2px solid #6f6f6f;
+  background: #111;
+  border: 2px solid #fff;
   height: 18px;
   border-radius: 22px;
   -moz-border-radius: 22px;
@@ -1043,7 +1043,7 @@ ul.experience-chart h4 {
 .skillbar-title,
 .skill-bar-percent {
   font-size: 16px;
-  color: #4d4d4d;
+  color: #fff;
   font-weight: 700;
   display: inline-block;
   margin-bottom: 7px;
@@ -1057,7 +1057,7 @@ ul.experience-chart h4 {
   height: 10px;
   margin: 0px 2px;
   width: 0px;
-  background: #4d4d4d;
+  background: #fff;
   border-radius: 22px;
   -moz-border-radius: 22px;
   -webkit-border-radius: 22px;
@@ -1109,8 +1109,8 @@ ul.experience-chart h4 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 30px;
-  padding-bottom: 40px;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .service-img {
@@ -1131,6 +1131,19 @@ ul.experience-chart h4 {
   font-weight: 700;
   letter-spacing: -0.5px;
   font-size: 19px;
+}
+
+.service-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 140px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  font-size: 16px;
 }
 
 .need-service {
