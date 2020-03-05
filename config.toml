@@ -67,10 +67,10 @@ name = "Portfolio"
 URL = "#portfolio"
 weight = 4
 
-[[menu.main]]
-name = "Testimonial"
-URL = "#testimonial"
-weight = 5
+# [[menu.main]]
+# name = "Testimonial"
+# URL = "#testimonial"
+# weight = 5
 
 [[menu.main]]
 name = "Contact"
@@ -83,12 +83,12 @@ weight = 6
 logo_light = "images/test.png"
 logo_dark = "images/logo-dark.png"
 # Meta data
-description = "This is meta description"
+description = "Flutter Developer from Graz, Austria. Flutter Entwickler aus Graz Österreich"
 author = "somrat"
 # contact form action
 contact_form_action = "https://formspree.io/mjvrbzpl" # contact form works with https://formspree.io
 # Google Analitycs
-google_analitycs_id = "" # your id
+google_analitycs_id = "107057775" # your id
 
 # Preloader
 [params.preloader]
@@ -96,9 +96,9 @@ enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
   
 ############################# social site ########################
-[[params.social]]
-icon = "fa-facebook-f" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.facebook.com/somrat.mac"
+# [[params.social]]
+# icon = "fa-facebook-f" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+# link = "https://www.facebook.com/somrat.mac"
 
 # [[params.social]]
 # icon = "fa-twitter" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
@@ -125,8 +125,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
-
+copyright = "Copyright Enton Preneur 2020"
 
 ################################### French language #####################################
 [Languages.de]
@@ -136,4 +135,4 @@ contentDir = "content/german"
 weight = 2
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
+copyright = "Copyright Enton Preneur 2020"

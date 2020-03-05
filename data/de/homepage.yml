@@ -4,7 +4,7 @@ hero:
 
   # animated text loop
   occupations:
-    - "Flutter Developer"
+    - "Flutter Entwickler"
     - "Android Developer"
 
   # slider background image loop
@@ -16,7 +16,7 @@ hero:
   # button
   button:
     enable: true
-    label: "HIRE ME"
+    label: "KONTAKTIERE MICH"
     link: "#contact"
 
 ####################### Full screen navigation #####################
@@ -30,45 +30,45 @@ fullscreen_nav:
 about:
   enable: true
   image: "images/backgrounds/portrait.jpeg"
-  title: "KNOW MORE <br> ABOUT ME"
-  content: "Hey ✌️\n\nMy name is Joe. My passion are beautiful mobile apps written in Flutter. I will help your idea become reality.
-  \n\nI am from Graz, Austria, but live currently in Taipei, Taiwan\n\n
+  title: "ERFAHRE MEHR <br> ÜBER MICH"
+  content: "Hey ✌️\n\nIch bin der Joe. Meine Leidenschaft sind Mobile Apps. Am besten mit wunderschönen Design und großartiger Usability. Kontaktiere mich und ich bin mir sicher dass ich dir beim umsetzen deiner Traum-App helfen kann.
+  \n\nUrsprünglich komme ich aus einem kleinen Ort in der Nähe von Graz, Österreich, lebe derzeit aber in Taipeh, Taiwan\n\n
   
-  Wine is another passion of mine. Before my carreer as software engineer I was winemaker on our family estate"
+  Eine weitere große Liebe ist Wein. Bevor ich als Entwickler tätig wurde war ich Winzer :)"
   # button
   button:
     enable: true
-    label: "DOWNLOAD MY CV"
+    label: "MEIN LEBENSLAUF"
     link: "CV_Josef_Wilhelm.pdf" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################
 experience:
   enable: true
-  title: "EXPERIENCE"
+  title: "ERFAHRUNG"
   experience_list:
     # experience item loop
-    - name: "Flutter Developer"
+    - name: "Flutter Entwickler"
       company: "Enton Preneur, Remote"
       duration: "Oct 2019 - now"
-      content: "Freelance Flutter developer. Development of various apps from scratch to release"
+      content: "Freelance Flutter Entwickler"
 
     # experience item loop
-    - name: "Anroid Developer"
-      company: "TomTom, Taipei"
-      duration: "Apr 2019 - Oct 2019"
-      content: "Worked on TomTom's Connected Navigation System"
+    - name: "Anroid Entwickler"
+      company: "TomTom, Taipeh"
+      duration: "Apr 2019 - Okt 2019"
+      content: "Mitarbeit an TomTom's Connected Navigation System"
 
     # experience item loop
-    - name: "Lead Android Developer"
+    - name: "Lead Android Entwickler"
       company: "Bike Citizens, Graz"
-      duration: "Aug 2018 - March 2019"
-      content: "Technical lead of the Android app, owning and advancing software architecture, improving of code quality and development new features"
+      duration: "Aug 2018 - Mär 2019"
+      content: "Technical lead der Anroid app. U.a. Umsetzung neuer Features, Konvertierung von Legacy Code zu Kotlin"
 
     # experience item loop
-    - name: "Mobile Developer"
+    - name: "Mobile Entwickler"
       company: "BytePoets, Graz"
       duration: "Feb 2017 - Aug 2018"
-      content: "Agile development of Android and iOS Apps"
+      content: "Agile software Entwicklung von Android und iOS Apps als Projektarbeiten"
 
 ############################### Skill #################################
 skill:
@@ -76,7 +76,7 @@ skill:
   title: "SKILLS"
   skill_list:
     # skill item loop
-    - name: "Flutter Development"
+    - name: "Flutter"
       parcentage: "90%"
 
     # skill item loop
@@ -84,12 +84,12 @@ skill:
       parcentage: "82%"
 
     # skill item loop
-    - name: "Android Development"
+    - name: "Android"
       parcentage: "80%"
 
     # skill item loop
-    - name: "iOS Development"
-      parcentage: "70%"
+    - name: "iOS"
+      parcentage: "68%"
 
 ################################### Service ##############################3
 service:
@@ -97,9 +97,9 @@ service:
   title: "SERVICES"
   service_list:
     # service item loop
-    - name: "Mobile App Development"
+    - name: "Mobile App Entwicklung"
       image: "images/icons/mobile-app.png"
-      text: "I offer cross-plattform app development as well as native development in Android and iOS"
+      text: "Ich biete Cross-Platform Entwicklung sowie native Entwicklung von Mobile Apps an"
     
     # # service item loop
     # - name: "Web Development"
@@ -112,17 +112,17 @@ service:
     # service item loop
     - name: "Backend Services"
       image: "images/icons/dbms.png"
-      text: "I'm very well versed with Firbase as a backend but also dedicated backend services can be done"
+      text: "Umsetzung von Backend Services. Ich habe viel Erfahrung mit Firebase, aber natürlich können auch selbst gehostete Backends entwickelt werden"
 
     # service item loop
-    - name: "Software Development"
+    - name: "Landing Page Entwicklung"
       image: "images/icons/software-development.png"
-      text: "I offer cross-plattform app development as well as native development in Android and iOS"
+      text: "Landing Pages wie diese hier können sehr preiswert umgesetzt werden."
 
     # service item loop
     - name: "App Store Optimization"
       image: "images/icons/marketing.png"
-      text: "Work is not done when the app is in the App Stores. I can help you with increasing your download numbers"
+      text: "Die Arbeit ist nicht vollbracht wenn die App einmal in den Stores ist. Ich kann bei ASO Strategien behilflich sein"
 
 
 
@@ -146,10 +146,10 @@ portfolio:
       image: "images/portfolio/tagme.png"
       category: "Flutter"
 
-    # portfolio item loop
-    - name: "Bouwbit"
-      image: "images/portfolio/bouwbit.png"
-      category: "Flutter"
+    # # portfolio item loop
+    # - name: "Bouwbit"
+    #   image: "images/portfolio/bouwbit.png"
+    #   category: "Flutter"
 
     # portfolio item loop
     - name: "Flip - Image Recognition"

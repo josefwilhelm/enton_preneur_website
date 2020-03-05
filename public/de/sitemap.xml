@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://vigilant-neumann-2949f8.netlify.com/de/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://vigilant-neumann-2949f8.netlify.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://vigilant-neumann-2949f8.netlify.com/de/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://vigilant-neumann-2949f8.netlify.com/de/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://vigilant-neumann-2949f8.netlify.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://vigilant-neumann-2949f8.netlify.com/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://vigilant-neumann-2949f8.netlify.com/de/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://vigilant-neumann-2949f8.netlify.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://vigilant-neumann-2949f8.netlify.com/de/tags/"
+                />
+  </url>
+  
+</urlset>
