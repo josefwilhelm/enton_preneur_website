@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://josefwilhelm.com"
+baseURL = "https://vigilant-neumann-2949f8.netlify.com/"
 title = "Josef Wilhelm"
 theme = "somrat"
 # disable language
